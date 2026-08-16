@@ -14,14 +14,166 @@
 }
 
 body {
+  background-color: #f5f3ef;
   margin: 0;
-  padding: 50px 50px;
 }
 
 h1,
 h2,
 p,
-a {
+a,
+button {
   font-family: NeueMontrealRegular;
   margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+p,
+a {
+  font-size: 1.1rem;
+}
+
+.button-white {
+  font-size: 15px;
+  padding: 9px 30px;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  padding: 0px 50px;
+  z-index: 1000;
+}
+
+header img {
+  width: 100px;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+main {
+  padding: 0px 50px;
+}
+
+footer {
+  color: white;
+  padding: 60px 50px 30px;
+  background-color: #1c1c1c;
+}
+
+#footer-grid {
+  display: grid;
+  grid-template-columns: minmax(400px, 20%) 1fr 30%;
+  column-gap: 15px;
+  margin-bottom: 100px;
+}
+
+#f-grid-left img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#f-grid-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#f-grid-center h1 {
+  margin-bottom: 20px;
+}
+
+#f-grid-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#f-grid-right-top h1 {
+  border-top: 2px solid white;
+  margin-bottom: 5px;
+}
+
+#f-grid-right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#f-bottom-left img {
+  width: 90px;
+}
+
+/* Tablet and smaller screens */
+@media (max-width: 1024px) {
+  #footer-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 100px;
+  }
+
+  #f-grid-left img {
+    min-width: 0;
+    height: 300px;
+  }
+
+  footer {
+    padding: 40px 30px 20px;
+  }
+
+  footer {
+    margin: 0px -30px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 20px 15px;
+    margin: 0px -20px;
+  }
+
+  #footer-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+  }
+
+  #f-grid-left img {
+    height: 200px;
+  }
+
+  #f-grid-center h1 {
+    font-size: 1.3rem;
+  }
+
+  #footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  body {
+    padding: 40px 20px 0px;
+  }
 }
