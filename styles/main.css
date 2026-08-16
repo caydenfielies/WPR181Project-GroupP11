@@ -53,6 +53,7 @@ header {
   color: white;
   padding: 0px 50px;
   z-index: 1000;
+  mix-blend-mode: difference;
 }
 
 header img {
