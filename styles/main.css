@@ -20,7 +20,8 @@ body {
 
 h1,
 h2,
-p {
+p,
+a {
   font-family: NeueMontrealRegular;
   margin: 0;
 }
