@@ -1,0 +1,26 @@
+@font-face {
+  font-family: NeueMontrealRegular;
+  src: url(/assets/fonts/PPNeueMontreal-Regular.otf);
+}
+
+@font-face {
+  font-family: NeueMontrealLight;
+  src: url(/assets/fonts/PPNeueMontreal-Light.otf);
+}
+
+@font-face {
+  font-family: NeueMontrealSemiBold;
+  src: url(/assets/fonts/PPNeueMontreal-Semibold.otf);
+}
+
+body {
+  margin: 0;
+  padding: 50px 50px;
+}
+
+h1,
+h2,
+p {
+  font-family: NeueMontrealRegular;
+  margin: 0;
+}
