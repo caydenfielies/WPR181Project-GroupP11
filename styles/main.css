@@ -52,15 +52,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 40px;
   width: 100%;
   box-sizing: border-box;
   color: white;
   padding: 0px 50px;
   z-index: 1000;
-  height: 80px;
-  
-  
+  mix-blend-mode: difference;
 }
 
 header img {
