@@ -19,16 +19,20 @@ body {
 }
 
 h1,
-h2,
 p,
 a,
 button {
-  font-family: NeueMontrealRegular;
+  font-family: NeueMontrealRegular, Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 h1 {
   font-weight: normal;
+}
+
+h2 {
+  font-family: NeueMontrealLight, Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 p,
