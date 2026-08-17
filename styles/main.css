@@ -36,10 +36,16 @@ a {
   font-size: 1.1rem;
 }
 
-.button-white {
+.button-white,
+.button-black {
   font-size: 15px;
   padding: 9px 30px;
   border: none;
+}
+
+.button-black {
+  background-color: #1c1c1c;
+  color: white;
 }
 
 header {
