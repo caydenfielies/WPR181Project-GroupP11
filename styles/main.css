@@ -46,14 +46,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 40px;
+  position: relative;
   width: 100%;
   box-sizing: border-box;
   color: white;
   padding: 0px 50px;
   z-index: 1000;
-  mix-blend-mode: difference;
+  height: 80px;
+  
+  
 }
 
 header img {
