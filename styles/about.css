@@ -1,0 +1,310 @@
+  /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header ul {
+            margin: 16px 0px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ===== NAVBAR ===== */
+
+        .btn {
+            padding: 10px 24px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-dark {
+            background: #1a1a1a;
+            color: #fff;
+        }
+
+        .btn-dark:hover {
+            background: #333;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+        .btn-outline:hover {
+            background: #fff;
+            color: #1a1a1a;
+        }
+
+        .btn-light {
+            background: #1a1a1a;
+            color: #fff;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            position: relative;
+            height: 900px;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),;
+                    
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+        }
+
+        .hero-content {
+            max-width: 500px;
+        }
+
+        .hero-content p:first-child {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        .hero-content .desc {
+            margin-bottom: 30px;
+            opacity: 0.9;
+            max-width: 400px;
+        }
+
+        /* ===== SECTION UTILS ===== */
+        section {
+            padding: 80px 5%;
+        }
+
+        .section-label {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.75rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .section-text {
+            color: #555;
+            margin-bottom: 25px;
+            max-width: 400px;
+        }
+
+        /* ===== STORY SECTION ===== */
+        .story {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .story-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .story-image {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* ===== STATS SECTION ===== */
+        .stats {
+            background: #fafafa;
+            padding: 60px 5%;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .stat-item h3 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .stat-icon {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        /* ===== DRIVES SECTION ===== */
+        .drives {
+            display: flex;
+            gap: 60px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .drives-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .drives-images {
+            flex: 1.5;
+            min-width: 300px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .drives-images img:first-child {
+            grid-column: span 2;
+        }
+
+        .feature {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .feature-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .feature h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* ===== TEAM SECTION ===== */
+        .team-header {
+            margin-bottom: 40px;
+        }
+
+        .team-grid {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+        }
+
+        .team-member h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta {
+            background: #1a1a1a;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 16px;
+            margin: 0 5% 80px;
+            padding: 60px;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .cta-text {
+            max-width: 400px;
+        }
+
+        .cta-text h2 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .cta-text p {
+            opacity: 0.8;
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        .cta-image img {
+            max-width: 300px;
+            border-radius: 12px;
+        }
+
+        /* ===== MOBILE RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none; /* Simplified for first-years */
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .cta {
+                text-align: center;
+                justify-content: center;
+            }
+
+            .drives-images {
+                grid-template-columns: 1fr;
+            }
+
+            .drives-images img:first-child {
+                grid-column: span 1;
+            }
