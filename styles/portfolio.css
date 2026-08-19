@@ -39,6 +39,7 @@ img {
 main {
   position: relative;
   top: 120px;
+  margin-bottom: 150px;
 }
 
 .hero {
