@@ -230,6 +230,24 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
+  #hero-content {
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 20px;
+    bottom: 30px;
+  }
+
+  #h-right-container {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+    gap: 20px;
+  }
+
+  #h-right-container p {
+    width: 100%;
+  }
+
   #bridge-section {
     height: 40vh;
   }
