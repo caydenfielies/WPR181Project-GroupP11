@@ -290,18 +290,29 @@
 
   #portfolio-content {
     width: 100%;
+    height: auto;
     flex-direction: column;
   }
 
   #p-content-left,
   #p-content-right {
     width: 100%;
-    height: 50%;
+    height: auto;
   }
 
   #p-top-right {
     flex-direction: column;
+    height: auto;
     margin-bottom: auto;
+  }
+
+  #p-bottom-right {
+    height: auto;
+  }
+
+  .p-content-item img {
+    height: 300px;
+    flex: none;
   }
 
   #testimonial-carousel-controls {
